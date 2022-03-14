@@ -26,13 +26,13 @@ export default function Home() {
       <Track/>
             <RightImage />
             <ThreeGridContainer/>
-            <Counter/>
+            {/* <Counter/> */}
             <Map/>
             <Logistics/>
             <div className='relative overflow-hidden'>
 
             <Shipping/>
-            <CarouselContainer/>
+            {/* <CarouselContainer/> */}
             </div>
       </Blue>
       </Layout>
