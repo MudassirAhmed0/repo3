@@ -3,7 +3,7 @@ import Blue from '../Components/Blue'
 import Hero from '../Components/Home/Hero' 
 import styles from '../styles/Home.module.css' 
 import CarouselContainer from '../Components/Home/CarouselContainer'
-// import Counter from '../Components/Home/Counter'
+import Counter from '../Components/Home/Counter'
 import Logistics from '../Components/Home/Logistics'
 import Map from '../Components/Home/Map'
 import RightImage from '../Components/Home/RightImage'
@@ -26,13 +26,13 @@ export default function Home() {
       <Track/>
             <RightImage />
             <ThreeGridContainer/>
-            {/* <Counter/> */}
+            <Counter/>
             <Map/>
             <Logistics/>
             <div className='relative overflow-hidden'>
 
             <Shipping/>
-            {/* <CarouselContainer/> */}
+            <CarouselContainer/>
             </div>
       </Blue>
       </Layout>
