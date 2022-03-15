@@ -1,7 +1,7 @@
  import styles from '../../styles/Home.module.css'
- import globalCapacity from '../../assets/images/home/images/global-capacity.jpg'
- import simplicity from '../../assets/images/home/images/SIMPLICITY.jpg'
- import flexibility from '../../assets/images/home/images/FLEXIBILITY.jpg'
+ import globalCapacity from '../../assets/NewImages/index/image/global-capcity.jpg'
+ import simplicity from '../../assets/NewImages/index/image/simplicity.jpg'
+ import flexibility from '../../assets/NewImages/index/image/flexibility.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -17,7 +17,7 @@ const ThreeGridContainer = () => {
 
          </span>
          <div className="absolute top-0 left-0 w-full h-full">
-             <Image src={globalCapacity}/>
+             <Image src={globalCapacity} alt="global-capacity"/>
 
          </div>
          <span className={`ml-12 -top-6 relative flex flex-col gap-y-2 z-10 ${styles.cardText}`}>
@@ -38,7 +38,7 @@ const ThreeGridContainer = () => {
 
          </span>
         <div className="absolute top-0 left-0 w-full h-full">
-         <Image src={flexibility}/>
+         <Image src={flexibility} alt="flexibility"/>
         </div>
         <span className={`ml-12 -top-6 relative flex flex-col gap-y-2 z-10 ${styles.cardText}`}>
             <span className="text-3xl z-5 relative text-white ">
@@ -58,7 +58,7 @@ const ThreeGridContainer = () => {
 
          </span>
      <div className="absolute top-0 left-0 w-full h-full">
-         <Image src={simplicity}/>
+         <Image src={simplicity} alt='simplicity'/>
         </div>
         <span className={`ml-12 -top-6 relative flex flex-col gap-y-2 z-10 ${styles.cardText}`}>
             <span className="text-3xl z-5 relative text-white ">

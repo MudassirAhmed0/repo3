@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../styles2/Ecommerce.module.css'
 import overlays from '../styles2/Overlays.module.css'
 import layoutStyles from '../styles2/Layout.module.css'
-import whiteBox from '../assets/images2/svg/box-white.svg'
+import whiteBox from '../assets/NewImages/svg/box-white.svg'
 import { useState } from 'react/cjs/react.development'
 
 const Form = () => {

@@ -1,9 +1,9 @@
 import styles from '../../styles/Layout.module.css' 
-import logo from '../../assets/images/svg/logofooter.svg'
+import logo from '../../assets/NewImages/svg/logofooter.svg'
 import Image from 'next/image'
 import Link from 'next/link'
-import playStoreIcon from '../../assets/images/png files/playstoreWhite.png'
-import appStoreIcon from '../../assets/images/png files/appstoreWhite.png'
+import playStoreIcon from '../../assets/NewImages/png-files/playstoreWhite.png'
+import appStoreIcon from '../../assets/NewImages/png-files/appstoreWhite.png'
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex w-full">
           <Link href="/" >
            <a className={`w-1/6 ${styles.footerLogo}`}>
-              <Image src={logo} alt="Logo"/>  
+              <Image src={logo} alt="Zajil Logo"/>  
             </a>
           </Link>
           <ul className='medium-font text-white flex flex-col gap-y-4 w-1/6'>

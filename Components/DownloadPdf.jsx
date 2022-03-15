@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Layout from "../styles2/Layout.module.css"
-import download from '../assets/images2/svg/DOWNLOAD.svg'
+import download from '../assets/NewImages/svg/DOWNLOAD.svg'
 
 const DownloadPdf = () => {
     return (

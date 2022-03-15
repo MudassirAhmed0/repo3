@@ -1,7 +1,7 @@
 import yellowBox from '../../assets/images/svg/box-yellow.svg' 
-import shipment from '../../assets/images/svg/Create-Shipment.svg' 
-import branch from '../../assets/images/svg/Find-Nearest-Branch.svg' 
-import calculator from '../../assets/images/svg/Price-Calculator.svg' 
+import shipment from '../../assets/NewImages/svg/Create-Shipment.svg' 
+import branch from '../../assets/NewImages/svg/Find-Nearest-Branch.svg' 
+import calculator from '../../assets/NewImages/svg/Price-Calculator.svg' 
 import Image from 'next/image'
 import CTA from './CTA'
 import styles from '../../styles/Home.module.css'
@@ -10,7 +10,7 @@ import Link from 'next/link'
 const Shipping = () => {
   return (
     <section className=" flex flex-col items-center pt-16">
-            <Image src={yellowBox}/>
+            <Image src={yellowBox} alt="Yellow Box"/>
             <h4 className="text-3xl text-blue uppercase medium-font mb-3 mt-2">
                 Shipping Simplified
             </h4>

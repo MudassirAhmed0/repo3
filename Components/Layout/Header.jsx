@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import arrow from '../../assets/images/svg/arrow.svg'
-import logo from '../../assets/images/svg/logo.svg'
+import arrow from '../../assets/NewImages/svg/arrow.svg'
+import logo from '../../assets/NewImages/svg/logo.svg'
 import styles from '../../styles/Layout.module.css'
 import MobileNumber from '../Popups/MobileNumber'
 
 const Header = ({noShipment}) => {
+
     const manageShipment =()=>{
          const modal = document.getElementById('mobileNumber')
          
@@ -20,14 +21,14 @@ const Header = ({noShipment}) => {
         <div>
             <Link href='/'>
                  <a>
-                    <Image src={logo}/>
+                    <Image src={logo} alt="zajil-logo"/>
                 </a>
             </Link>
         </div>
         <nav>
             <ul className='flex ml-20 gap-x-10'>
                 <li className={`cursor-pointer relative ${styles.dropdownBtn}`}>
-                    <span className='relative hover:text-yellow transition-all'>Ship   <span className='relative -top-0.5 -right-0.3'><Image   src={arrow}/></span></span>
+                    <span className='relative hover:text-yellow transition-all'>Ship   <span className='relative -top-0.5 -right-0.3'><Image   src={arrow} alt="arrow"/></span></span>
                     <ul className={`absolute top-7 -left-6 p-4 pl-6 flex  flex-col gap-y-3 bg-white text-black text-base ${styles.dropdownMenu}`}>
                         <li className={`hover:text-yellow transition-all ${styles.dropdownMenuItem}`}>
                             <Link href="/shipment">
@@ -60,7 +61,7 @@ const Header = ({noShipment}) => {
                     </ul>
                 </li>
                 <li className={`cursor-pointer relative ${styles.dropdownBtn}`}>
-                    <span className='relative hover:text-yellow transition-all'>Solutions  <span className='relative -top-0.5 -right-0.3'><Image   src={arrow}/></span></span>
+                    <span className='relative hover:text-yellow transition-all'>Solutions  <span className='relative -top-0.5 -right-0.3'><Image   src={arrow} alt="arrow"/></span></span>
                     <ul className={`absolute top-7 -left-6 p-4 pl-6 flex  flex-col gap-y-3 bg-white text-black text-base ${styles.dropdownMenu}`}>
                         <li className={`hover:text-yellow transition-all ${styles.dropdownMenuItem}`}>
                             <Link href="/ecommerce">
@@ -93,7 +94,7 @@ const Header = ({noShipment}) => {
                     </ul>
                 </li>
                 <li className={`cursor-pointer relative ${styles.dropdownBtn}`}>
-                    <span className='relative hover:text-yellow transition-all'>Help & Support  <span className='relative -top-0.5 -right-0.3'><Image   src={arrow}/></span></span>
+                    <span className='relative hover:text-yellow transition-all'>Help & Support  <span className='relative -top-0.5 -right-0.3'><Image   src={arrow} alt="arrow"/></span></span>
                     <ul className={`absolute top-7 -left-6 p-4 pl-6 flex  flex-col gap-y-3 bg-white text-black text-base ${styles.dropdownMenu}`}>
                         <li className={`hover:text-yellow transition-all ${styles.dropdownMenuItem}`}>
                             <Link href="/faqs">

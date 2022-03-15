@@ -1,7 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import overlay from '../../styles/Overlays.module.css'
 import Image from 'next/image'
-import cube from '../../assets/images/svg/box-white.svg'
+import cube from '../../assets/NewImages/svg/box-white.svg'
 import CountUp from 'react-countup';
 
 import VisibilitySensor from 'react-visibility-sensor';

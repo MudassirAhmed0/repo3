@@ -1,15 +1,15 @@
 import styles from '../../styles/Home.module.css'
 import HomeCarousel from "./Carousel"
 import Image from 'next/image'
-import yellowBox from '../../assets/images/svg/box-yellow.svg' 
+import yellowBox from '../../assets/NewImages/svg/box-yellow.svg' 
 import Link from 'next/link'
 import overlays from '../../styles/Overlays.module.css'
-import brandIcon from '../../assets/images/home/images/brandIcon3.svg'
+import brandIcon from '../../assets/NewImages/index/image/brandIcon3.svg'
 
 const CarouselContainer = () => {
   return (
     <div className={`flex flex-col items-center rounded-b-xl pt-24 ${styles.carouselContainer}`}>
-         <Image src={yellowBox}/>
+         <Image src={yellowBox} alt="yellow box"/>
             <h4 className={`text-3xl relative w-full text-center  text-blue uppercase medium-font mb-10 mt-2 ${overlays.carouselOverlay2} `} >
                 <span className={styles.brandIcon3}>
                     <Image src={brandIcon} alt='brandIcon'/>    

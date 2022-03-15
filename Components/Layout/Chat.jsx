@@ -1,6 +1,6 @@
 
 import styles from '../../styles/Layout.module.css'
-import chatIcon from '../../assets/images/svg/chat.svg'
+import chatIcon from '../../assets/NewImages/svg/chat.svg'
 import Image from 'next/image'
 
 const Chat = () => {

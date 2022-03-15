@@ -1,7 +1,7 @@
 import Image from "next/image"
 import styles from '../../styles/Home.module.css'
-import delivered from '../../assets/images/home/images/deliver.jpg' 
-import yellowCube from '../../assets/images/svg/box-yellow.svg'
+import delivered from '../../assets/NewImages/index/image/delivered.jpg' 
+import yellowCube from '../../assets/NewImages/svg/box-yellow.svg'
 
 const RightImage = () => {
   return (
